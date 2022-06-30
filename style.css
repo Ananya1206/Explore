@@ -114,7 +114,7 @@ section {
   margin-top: 8rem;
   width: 90%;
   border-radius: 1rem;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../videos/bg-img.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../bg-img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -179,52 +179,26 @@ section {
   flex: 1 1 15rem;
 }
 .about {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 5rem;
-}
-.about .video-container {
-  flex: 1 1 42rem;
-}
-.about .video-container video {
-  border-radius: 1rem;
-  width: 100%;
-}
-.about .video-container .controls {
+  background:#232526;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 2rem;
   text-align: center;
-  padding: 2rem 0;
-}
-.about .video-container .controls span {
-  display: inline-block;
-  height: 2rem;
-  width: 2rem;
-  border-radius: 50%;
-  background: white;
-  cursor: pointer;
-  margin: .5rem;
-}
-.about .video-container .controls span:hover {
-  background: #c31432;
-}
-.about .content {
-  flex: 1 1 42rem;
-  margin-bottom: 5rem;
 }
 .about .content span {
-  color: #c31432;
   font-size: 2rem;
+  color: #c31432;
 }
 .about .content h3 {
-  color: white;
   font-size: 4rem;
-  margin-top: .5rem;
+  color: white;
+  margin-top: 1rem;
 }
 .about .content p {
-  padding: 1rem 0;
+  max-width: 60rem;
+  margin: 1rem auto;
   font-size: 1.5rem;
-  color: grey;
+  color:grey;
   line-height: 2;
 }
 .destination .box-container {
@@ -396,7 +370,6 @@ section {
   background-size: cover;
   background-position: center;
   padding: 3rem 2rem;
-  background-attachment: fixed;
   text-align: center;
 }
 .banner .content span {
